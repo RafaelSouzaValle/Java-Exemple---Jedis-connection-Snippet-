@@ -59,21 +59,12 @@ public class RedisJava {
 			System.out.println("Valor guardado na lista : " + list.get(i));
 		}
 
-<<<<<<< HEAD
 		//MÈtodos ˙teis para limpar o banco de dados:
 		//jedis.flushAll(); // Limpa todos os bancos de dados em execuÁ„o
 		//jedis.flushDB(); // Limpa apenas o banco de dados atual
-||||||| merged common ancestors
-		//MÈtodos ˙teis para limpar o banco de dados:
-		// limpar server jedis.flushall(); : Limpa todos os bancos de dados em execuÁ„o
-		// limpar server jedis.flushdb(); : Limpa apenas o banco de dados atual
-=======
-		//M√©todos √∫teis para limpar o banco de dados:
-		// limpar server jedis.flushall(); : Limpa todos os bancos de dados em execu√ß√£o
-		// limpar server jedis.flushdb(); : Limpa apenas o banco de dados atual
->>>>>>> 4793237cb81c4ab915e1a2f331930a4b0c5eb8f6
 
-		// Fecha conex√£o
+
+		//Fecha conex„o
 		jedis.close();
 	}
 }
