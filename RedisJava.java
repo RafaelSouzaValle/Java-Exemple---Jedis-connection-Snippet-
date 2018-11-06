@@ -60,8 +60,8 @@ public class RedisJava {
 		}
 
 		//Métodos úteis para limpar o banco de dados:
-		// limpar server jedis.flushall(); : Limpa todos os bancos de dados em execução
-		// limpar server jedis.flushdb(); : Limpa apenas o banco de dados atual
+		//jedis.flushAll(); // Limpa todos os bancos de dados em execução
+		//jedis.flushDB(); // Limpa apenas o banco de dados atual
 
 		// Fecha conexão
 		jedis.close();
